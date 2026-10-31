@@ -1,0 +1,41 @@
+{
+  "name": "vareon-engineering",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VAREON Engineering Services corporate website (React + TypeScript + Tailwind + webpack)",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.1.1",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "framer-motion": "11.15.0",
+    "lucide-react": "0.469.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.28.1",
+    "tailwind-merge": "2.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "autoprefixer": "10.4.20",
+    "copy-webpack-plugin": "12.0.2",
+    "css-loader": "7.1.2",
+    "css-minimizer-webpack-plugin": "7.0.0",
+    "html-webpack-plugin": "5.6.3",
+    "mini-css-extract-plugin": "2.9.2",
+    "postcss": "8.4.49",
+    "postcss-loader": "8.1.1",
+    "tailwindcss": "3.4.17",
+    "style-loader": "4.0.0",
+    "ts-loader": "9.5.1",
+    "typescript": "5.7.2",
+    "webpack": "5.97.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.2.0"
+  }
+}
